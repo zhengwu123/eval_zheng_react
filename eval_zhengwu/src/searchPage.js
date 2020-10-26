@@ -21,8 +21,8 @@ const SearchPage = (props) => {
     return await axios
       .get(url, {
         auth: {
-          username: "zhengwu123",
-          password: "daac08b8e3d646123866df31605d25e1e2e80d80"
+          username: "username",
+          password: "pass"
         }
       })
       .then(function (response) {
@@ -40,8 +40,8 @@ const SearchPage = (props) => {
     return await axios
       .get(url, {
         auth: {
-          username: "zhengwu123",
-          password: "daac08b8e3d646123866df31605d25e1e2e80d80"
+          username: "username",
+          password: "pass"
         }
       })
       .then(function (response) {
